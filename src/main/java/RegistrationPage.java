@@ -32,7 +32,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 
-public class FormPage extends ConfirmationPage {
+public class RegistrationPage extends ConfirmationPage {
 
     public static void submitForm(WebDriver driver) throws InterruptedException {
 

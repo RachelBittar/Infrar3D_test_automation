@@ -10,8 +10,8 @@ public class Form {
         WebDriver driver = new ChromeDriver();
         driver.get("http://tester.bigoals.net/HTML/DNL/register-now.html");
 
-        FormPage formPage = new FormPage();
-        formPage.submitForm(driver);
+        RegistrationPage registrationPage = new RegistrationPage();
+        registrationPage.submitForm(driver);
 
         ConfirmationPage confirmationPage = new ConfirmationPage();
         confirmationPage.waitForAlertBanner(driver);
